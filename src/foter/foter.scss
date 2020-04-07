@@ -1,0 +1,122 @@
+.cover {
+    background-size: cover !important;
+}
+
+.bg-center {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.br2 {
+    border-radius: .25rem;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h2 {
+    height: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.white-60 {
+    color: rgba(255, 255, 255, .6);
+}
+
+.bg-black-80 {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.hover-white:hover {
+    color: #fff;
+}
+
+.hover-white:focus {
+    color: #fff;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pr2 {
+    padding-right: .5rem;
+}
+
+.pv5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ma2 {
+    margin: .5rem;
+}
+
+.ml3 {
+    margin-left: 1rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 60em) {
+    .tc-l {
+        text-align: center;
+    }
+}

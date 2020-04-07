@@ -1,0 +1,16 @@
+.container {
+    /*show heigh: auto*/
+    height: 100%; 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cover {
+    width: 50rem;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
